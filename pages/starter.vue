@@ -1,0 +1,34 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <div class="bg-gradient-to-br from-zinc-900 to-red-500 w-screen h-screen flex items-center justify-center flex-col text-center">
+    <div>
+      <p>خاطرات ماندگار در بیست آفاق</p>
+      <p>LASTING MEMORIES IN 20VISION</p>
+    </div>
+    <div>
+      <div class="w-screen text-xs fixed bottom-10 left-0 flex justify-center text-white">
+        <span class="w-2.5 h-2.5 inline-block bg-gray-400 rounded-full mr-2"></span>
+        <span class="w-2.5 h-2.5 inline-block bg-gray-400 rounded-full mr-2"></span>
+        <span class="w-2.5 h-2.5 inline-block bg-white rounded-full mr-2"></span>
+      </div>
+    </div>
+    <div class="absolute flex bottom-6 left-6 text-white px-2 py-2">
+      <p>قبلی</p>
+    </div>
+    <div class="absolute flex  bottom-6 right-6  text-white px-2 py-2 rounded">
+      <p>بعدی</p>
+    </div>
+  </div>
+</template>
+
+
+
+<style scoped>
+*
+{
+  direction: rtl;
+}
+</style>
