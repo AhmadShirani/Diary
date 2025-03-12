@@ -5,7 +5,7 @@
 <template>
   <div class="bg-gradient-to-br from-zinc-900 to-red-500 w-screen h-screen flex items-center justify-center flex-col text-center">
     <div class="grid gap-5 my-5">
-      <div class="border-b-4 border-white">
+      <div class="border-b-4 border-white size-11">
         <h1 class="my-3 ml-60">ورود</h1>
       </div>
 
