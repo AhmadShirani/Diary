@@ -38,7 +38,7 @@
             دخیره خاطرات
           </button>
           <button class="shadow bg-white hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded" type="button">
-            <NuxtLink to="">بازگشت به صفحه خانه</NuxtLink>
+            <NuxtLink to="/home-page">بازگشت به صفحه خانه</NuxtLink>
           </button>
         </div>
       </div>
