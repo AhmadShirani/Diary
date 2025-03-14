@@ -12,9 +12,9 @@
       <label class="ml-52">نام کاربری</label>
       <input class="w-full bg-transparent placeholder:text-white text-white text-sm border border-white rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
       <label class="ml-52">رمز عبور</label>
-      <input class="w-full bg-transparent placeholder:text-white text-white text-sm border border-white rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+      <input class="w-full bg-transparent placeholder:text-white text-white text-sm border border-white rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" type="password">
       <label class="ml-52">تکرار رمز عبور</label>
-      <input class="w-full bg-transparent placeholder:text-white text-white text-sm border border-white rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+      <input class="w-full bg-transparent placeholder:text-white text-white text-sm border border-white rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" type="password">
     </div>
     <div class="mt-12">
       <nuxt-link to="/home-page"><button class="bg-white text-black font-bold py-2 px-14 rounded-full">ورود</button></nuxt-link>

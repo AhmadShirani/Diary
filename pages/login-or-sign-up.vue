@@ -7,12 +7,14 @@
     <div>
       <p>.کاربر گرامی به بیست من خوش آمدید برای ثبت نام/ ورود اقدام کنید</p>
     </div>
+    <nuxt-link to="/login-page">
+      <div class="mt-12">
+        <button class="bg-white text-black font-bold py-2 px-14 rounded-full">ثبت نام</button>
+      </div>
+    </nuxt-link>
     <div class="mt-12">
-      <button class="bg-white text-black font-bold py-2 px-14 rounded-full">ثبت نام</button>
-    </div>
-    <div class="mt-12">
-      <nuxt-link to="/login-page">
-        <button class="bg-white text-black font-bold py-2 px-14 rounded-full">ورود</button>
+      <nuxt-link to="/sign-up">
+        <button class="bg-white text-black font-bold py-2 px-14 rounded-full"> صفخه ورود</button>
       </nuxt-link>
     </div>
     <div class="absolute flex bottom-6 left-6 text-white px-2 py-2">

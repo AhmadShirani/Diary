@@ -26,7 +26,7 @@
 
 
 
-<style scoped>
+<style>
 *
 {
   direction: rtl;
