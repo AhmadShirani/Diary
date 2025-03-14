@@ -15,7 +15,7 @@
       <input class="w-full bg-transparent placeholder:text-white text-white text-sm border border-white rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
     </div>
     <div class="mt-12">
-      <button class="bg-white text-black font-bold py-2 px-14 rounded-full">ورود</button>
+      <nuxt-link to="/home-page"> <button class="bg-white text-black font-bold py-2 px-14 rounded-full">ورود</button></nuxt-link>
     </div>
     <div class="absolute flex bottom-6 left-6 text-white px-2 py-2">
       <nuxt-link to="/login-or-sign-up"><p>قبلی</p></nuxt-link>
