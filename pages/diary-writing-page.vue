@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="p-8 mt-6 lg:mt-0 rounded bg-gradient-to-br from-zinc-900 to-red-500 w-screen h-screen">
+  <div class="p-8 mt-6 lg:mt-0 rounded bg-gradient-to-br from-zinc-900 to-red-500 w-100vh h-">
 
     <form>
 
@@ -34,7 +34,7 @@
       <div class="md:flex justify-items-center items-center">
         <div class="md:w-1/3"></div>
         <div class="md:w-2/3 flex flex-col gap-5">
-          <button class="shadow bg-white hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded" type="button">
+          <button class="shadow bg-white hover:bg-red-500 focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded" type="button">
             دخیره خاطرات
           </button>
           <button class="shadow bg-white hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-black font-bold py-2 px-4 rounded" type="button">

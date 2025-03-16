@@ -19,7 +19,7 @@
       </div>
     </div>
   </nuxt-link>
-<nuxt-link to="/">
+<nuxt-link to="">
   <div class="bg-white rounded-lg shadow-lg p-8">
     <div class="relative overflow-hidden">
       <img class="object-cover w-full h-full" src="/public/img/Photo_of_Library_001.jpg" alt="Product">

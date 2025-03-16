@@ -1,26 +1,30 @@
 <script setup lang="ts">
+import { NuxtLink } from '#components';
+
 
 </script>
 
 <template>
-  <div class="bg-gradient-to-br from-zinc-900 to-red-500 w-screen h-screen flex items-center justify-center flex-col text-center">
-    <div>
-      <p>.کاربر گرامی به بیست من خوش آمدید برای ثبت نام/ ورود اقدام کنید</p>
-    </div>
-    <nuxt-link to="/login-page">
-      <div class="mt-12">
-        <button class="bg-white text-black font-bold py-2 px-14 rounded-full">ثبت نام</button>
-      </div>
-    </nuxt-link>
-    <div class="mt-12">
-      <nuxt-link to="/sign-up">
-        <button class="bg-white text-black font-bold py-2 px-14 rounded-full"> صفخه ورود</button>
-      </nuxt-link>
-    </div>
-    <div class="absolute flex bottom-6 left-6 text-white px-2 py-2">
-      <nuxt-link to="/starter3"><p>قبلی</p></nuxt-link>
-    </div>
-  </div>
+
+    
+
+  <div class="bg-gradient-to-br from-red-800 to-slate-900 w-screen h-screen flex flex-col justify-center items-center text-center  ">
+    <img class="w-60" src="D:\Ahmad\Ahmad Shirani\project\Diary\public\img\Screenshot_18-2-2025_13534_ (1).png">
+    <hr class="w-80 h-0.5 mx-auto my-4 bg-white border-0 rounded-sm md:my-10 dark:bg-white">
+   <span class=" text-lg text-center" > کاربر گرامی به بیست آفاق خوش آمدید</span>
+   <span class=" text-lg text-center mt-3" >برای ثبت نام/ورود اقدام نمایید</span>
+   
+   
+   <NuxtLink to="/login-page" class="text-white flex justify-center items-center bg-none border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm w-36 px-8 py-2.5 me-2 mb-2 dark:bg-none dark:text-white dark:border- dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-20">
+    <span>ورود</span>
+   </NuxtLink>
+
+
+    <NuxtLink to="/sign-up" class="text-white  flex justify-center items-center bg-none border border-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm w-36 px-8 py-2.5 me-2 mb-2 dark:bg-none dark:text-white dark:border- dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-8">
+      <span>ثبت نام</span>
+    </NuxtLink>   
+
+     </div>
 </template>
 
 <style scoped>
@@ -28,4 +32,5 @@
 {
   direction: rtl;
 }
+
 </style>
